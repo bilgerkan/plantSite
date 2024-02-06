@@ -6,6 +6,10 @@
 !.vscode/extensions.json
 
 # img
+*.img
+*.png
+*.jpg
+img/vectors/
 img/
 
 # videos
@@ -13,5 +17,3 @@ img/
 
 # log
 *.log
-
-
