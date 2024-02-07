@@ -1,5 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --softGreen: #c1dcdc;
+}
+
+body {
+  width: 100vw;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.landingPage {
+  width: 90%;
+  margin: auto;
+}
+header {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  font-size: 18px;
+}
+header h1 {
+  display: inline;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 700;
+  font-size: 27px;
+  width: auto;
+}
+nav {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav ul {
+  height: 24px;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: #000000a1;
 }
