@@ -21,7 +21,7 @@ body {
 .landingPage {
   width: 88%;
   margin: auto;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 }
 header {
   height: 10%;
@@ -188,7 +188,7 @@ nav ul li:last-child a {
 .bestSelling .textPlants button {
   font-family: "Poppins";
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   color: #1e1e1e;
   width: 170px;
   height: 50px;
@@ -214,5 +214,42 @@ nav ul li:last-child a {
   margin: 2% 0px;
 }
 .bestSelling .plants p {
+  color: #00000070;
+}
+/*about us*/
+.aboutUs .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutUs .top h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.aboutUs .top p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00000070;
+  margin: 1% auto 3%;
+}
+.aboutUs .sec {
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutUs .sec .abt {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.aboutUs .sec .abt h4 {
+  margin: 5% 0px 4%;
+  font-size: 18px;
+  font-weight: 700;
+}
+.aboutUs .sec .abt p {
+  font-size: 18px;
+  font-weight: 600;
   color: #00000070;
 }
