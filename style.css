@@ -12,8 +12,8 @@
 }
 
 body {
-  width: 100vw;
-  height: 300vh;
+  width: 100%;
+  height: 200vh;
   font-family: "Poppins", sans-serif;
 }
 
@@ -22,11 +22,11 @@ body {
   margin: auto;
 }
 header {
-  height: 40px;
+  height: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px auto;
+  margin: 4% auto;
   font-size: 18px;
 }
 header h1 {
@@ -44,7 +44,7 @@ nav {
 }
 
 nav ul {
-  height: 24px;
+  height: 4%;
   display: flex;
   justify-content: center;
 }
@@ -73,13 +73,13 @@ nav ul li:last-child a {
 }
 .left {
   width: 40%;
-  margin: 50px;
+  margin: 4%;
 }
 
 .left h2 {
   font-weight: bolder;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 400%;
+  line-height: 100%;
 }
 .left .textArea {
   width: 65%;
@@ -95,7 +95,7 @@ nav ul li:last-child a {
 }
 .textArea .inDiv h3 {
   font-weight: normal;
-  font-size: 32px;
+  font-size: 2rem;
 }
 .textArea .inDiv p {
   font-weight: normal;
@@ -104,33 +104,32 @@ nav ul li:last-child a {
 .line {
   border-right: 1px solid black;
   height: 64px;
-  display: inline;
 }
 .left .searchBox {
-  height: 64px;
-  width: 450px;
-  padding: 8px;
+  height: 16%;
+  width: 87%;
+  padding: 1.5%;
   background-color: white;
   border-radius: 8px;
   display: flex;
   text-align: center;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 10%;
 }
 .left .searchBox p {
-  font-size: 18px;
+  font-size: 110%;
   color: #00000070;
-  line-height: 48px;
-  margin-left: 10px;
+  line-height: 300%;
+  margin-left: 3%;
   font-weight: 600;
 }
 .left .searchBox img {
-  width: 48px;
-  height: 48px;
+  width: 11%;
+  height: 100%;
   padding: 2px;
   background-color: var(--softGreen);
   border: 10px solid var(--softGreen);
-  border-radius: 10px;
+  border-radius: 20%;
 }
 
 .imgArea {
@@ -140,25 +139,25 @@ nav ul li:last-child a {
 .imgArea img:nth-child(2) {
   position: absolute;
   bottom: 0px;
-  right: 80px;
+  right: 11%;
   z-index: 1;
 }
 .imgArea img:nth-child(1) {
   position: absolute;
-  bottom: 80px;
-  left: -120px;
+  bottom: 17%;
+  left: -17%;
 }
 .imgArea img:nth-child(3) {
   position: absolute;
-  right: 30px;
-  top: 10px;
+  right: 4%;
+  top: 2%;
 }
 .rect {
   position: absolute;
   bottom: 0px;
-  right: 100px;
+  right: 15%;
   background-color: #000000e1;
-  width: 450px;
-  height: 400px;
+  width: 70%;
+  height: 80%;
   border-radius: 200px 200px 0px 190px;
 }
