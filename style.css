@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 * {
@@ -18,8 +19,9 @@ body {
 }
 
 .landingPage {
-  width: 85%;
+  width: 88%;
   margin: auto;
+  margin-bottom: 10%;
 }
 header {
   height: 10%;
@@ -160,4 +162,57 @@ nav ul li:last-child a {
   width: 70%;
   height: 80%;
   border-radius: 200px 200px 0px 190px;
+}
+/*best selling plants*/
+.bestSelling {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 7%;
+}
+.bestSelling .textPlants {
+  width: 25%;
+}
+.bestSelling .textPlants h3 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.bestSelling .textPlants p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00000070;
+  margin: 3% 0px 10%;
+  width: 75%;
+}
+.bestSelling .textPlants button {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e1e1e;
+  width: 170px;
+  height: 50px;
+  background-color: var(--softGreen);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 18px;
+  border: none;
+  border-radius: 10px;
+}
+.bestSelling .plants {
+  width: 28%;
+  margin-left: 4%;
+  font-size: 18px;
+}
+.bestSelling .plants img {
+  width: 100%;
+}
+.bestSelling .plants h4 {
+  color: #000000cb;
+  font-weight: 600;
+  margin: 2% 0px;
+}
+.bestSelling .plants p {
+  color: #00000070;
 }
