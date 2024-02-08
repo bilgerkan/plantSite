@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 * {
   margin: 0;
@@ -11,12 +13,12 @@
 
 body {
   width: 100vw;
-
+  height: 300vh;
   font-family: "Poppins", sans-serif;
 }
 
 .landingPage {
-  width: 90%;
+  width: 85%;
   margin: auto;
 }
 header {
@@ -51,6 +53,112 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
+  margin: 30px;
+  color: #00000078;
+  font-weight: 600;
+}
+nav ul li:first-child a {
+  color: #000000e4;
+}
+nav ul li:last-child a {
+  margin-right: 0;
+}
+/*searching area*/
+.search {
+  background-color: var(--softGreen);
+  height: 60vh;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 40%;
+  margin: 50px;
+}
+
+.left h2 {
+  font-weight: bolder;
+  font-size: 64px;
+  line-height: 64px;
+}
+.left .textArea {
+  width: 65%;
   margin: 20px;
-  color: #000000a1;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.textArea .inDiv {
+  text-align: left;
+  margin-left: 0px;
+}
+.textArea .inDiv h3 {
+  font-weight: normal;
+  font-size: 32px;
+}
+.textArea .inDiv p {
+  font-weight: normal;
+  font-size: 18px;
+}
+.line {
+  border-right: 1px solid black;
+  height: 64px;
+  display: inline;
+}
+.left .searchBox {
+  height: 64px;
+  width: 450px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.left .searchBox p {
+  font-size: 18px;
+  color: #00000070;
+  line-height: 48px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.left .searchBox img {
+  width: 48px;
+  height: 48px;
+  padding: 2px;
+  background-color: var(--softGreen);
+  border: 10px solid var(--softGreen);
+  border-radius: 10px;
+}
+
+.imgArea {
+  width: 50%;
+  position: relative;
+}
+.imgArea img:nth-child(2) {
+  position: absolute;
+  bottom: 0px;
+  right: 80px;
+  z-index: 1;
+}
+.imgArea img:nth-child(1) {
+  position: absolute;
+  bottom: 80px;
+  left: -120px;
+}
+.imgArea img:nth-child(3) {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+.rect {
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+  background-color: #000000e1;
+  width: 450px;
+  height: 400px;
+  border-radius: 200px 200px 0px 190px;
 }
