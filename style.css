@@ -318,3 +318,85 @@ nav ul li:last-child a {
   border-radius: 10px;
   margin: 4% auto;
 }
+/*testimonial*/
+.testimonial {
+  height: 100vh;
+  margin: 8% 0px 40% 7%;
+}
+.testimonial .top h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  width: 40%;
+  margin-bottom: 3%;
+}
+.testimonial .commentBox {
+  background-color: var(--softGreen);
+  width: 60%;
+  height: 42%;
+  border-radius: 15px;
+  padding: 4%;
+  position: relative;
+}
+.testimonial .commentBox p {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: justify;
+  color: #000000a5;
+}
+.testimonial .commentBox .info {
+  display: flex;
+  height: 50%;
+}
+.testimonial .commentBox .info .foto {
+  width: 150px;
+  height: 100%;
+}
+.testimonial .commentBox .info .foto img:nth-child(1) {
+  position: absolute;
+  width: 48px;
+  height: 40px;
+  bottom: 28%;
+}
+.testimonial .commentBox .info .foto img:nth-child(2) {
+  position: absolute;
+  width: 150px;
+  z-index: 1;
+  bottom: 0px;
+  left: 2.5%;
+}
+.testimonial .commentBox .info .name {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  justify-content: flex-end;
+  margin-left: -10px;
+}
+.testimonial .commentBox .info .name h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.testimonial .commentBox .info .name p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #00000070;
+}
+.testimonial .commentBox .info .rate {
+  width: 7%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  position: absolute;
+  right: 7%;
+  bottom: 30%;
+}
+.testimonial .commentBox .info .rate img {
+  width: 20px;
+  height: 20px;
+}
+.testimonial .commentBox .info .rate h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+/*slidebar eklenecek*/
+/*footer*/
