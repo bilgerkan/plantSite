@@ -400,3 +400,48 @@ nav ul li:last-child a {
 }
 /*slidebar eklenecek*/
 /*footer*/
+footer {
+  background-color: var(--softGreen);
+  height: 45vh;
+}
+footer .linker {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+footer .linker .left {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+footer .linker .left h3 {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+footer .linker .left p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #00000070;
+}
+footer .linker .left .fotos {
+  width: 192px;
+  height: 48px;
+}
+
+/*
+footer .linker .right{
+
+}
+footer .linker .right table{
+
+}
+
+
+footer .credit{
+  
+}
+footer .credit p{
+  
+}
+*/
