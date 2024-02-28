@@ -164,6 +164,7 @@ nav ul li:last-child a {
   border-radius: 200px 200px 0px 190px;
 }
 /*best selling plants*/
+
 .bestSelling {
   display: flex;
   justify-content: space-between;
@@ -321,7 +322,7 @@ nav ul li:last-child a {
 /*testimonial*/
 .testimonial {
   height: 100vh;
-  margin: 8% 0px 40% 7%;
+  margin: 8% 7% 5% 7%;
 }
 .testimonial .top h3 {
   font-size: 2rem;
@@ -329,42 +330,46 @@ nav ul li:last-child a {
   width: 40%;
   margin-bottom: 3%;
 }
-.testimonial .commentBox {
+.testimonial .comments {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial .comments .commentBox {
   background-color: var(--softGreen);
-  width: 60%;
-  height: 42%;
+  width: 48%;
+  height: 350px;
   border-radius: 15px;
   padding: 4%;
   position: relative;
 }
-.testimonial .commentBox p {
+.testimonial .comments .commentBox p {
   font-size: 18px;
   font-weight: 600;
   text-align: justify;
   color: #000000a5;
 }
-.testimonial .commentBox .info {
+.testimonial .comments .commentBox .info {
   display: flex;
   height: 50%;
 }
-.testimonial .commentBox .info .foto {
+.testimonial .comments .commentBox .info .foto {
   width: 150px;
   height: 100%;
 }
-.testimonial .commentBox .info .foto img:nth-child(1) {
+.testimonial .comments .commentBox .info .foto img:nth-child(1) {
   position: absolute;
   width: 48px;
   height: 40px;
   bottom: 28%;
 }
-.testimonial .commentBox .info .foto img:nth-child(2) {
+.testimonial .comments .commentBox .info .foto img:nth-child(2) {
   position: absolute;
   width: 150px;
   z-index: 1;
   bottom: 0px;
   left: 2.5%;
 }
-.testimonial .commentBox .info .name {
+.testimonial .comments .commentBox .info .name {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -372,16 +377,16 @@ nav ul li:last-child a {
   justify-content: flex-end;
   margin-left: -10px;
 }
-.testimonial .commentBox .info .name h4 {
+.testimonial .comments .commentBox .info .name h4 {
   font-size: 18px;
   font-weight: 700;
 }
-.testimonial .commentBox .info .name p {
+.testimonial .comments .commentBox .info .name p {
   font-size: 12px;
   font-weight: 600;
   color: #00000070;
 }
-.testimonial .commentBox .info .rate {
+.testimonial .comments .commentBox .info .rate {
   width: 7%;
   display: flex;
   justify-content: space-between;
@@ -390,11 +395,11 @@ nav ul li:last-child a {
   right: 7%;
   bottom: 30%;
 }
-.testimonial .commentBox .info .rate img {
+.testimonial .comments .commentBox .info .rate img {
   width: 20px;
   height: 20px;
 }
-.testimonial .commentBox .info .rate h4 {
+.testimonial .comments .commentBox .info .rate h4 {
   font-size: 18px;
   font-weight: 700;
 }
@@ -403,6 +408,9 @@ nav ul li:last-child a {
 footer {
   background-color: var(--softGreen);
   height: 45vh;
+  font-size: 18px;
+  font-weight: 500;
+  color: #00000070;
 }
 footer .linker {
   display: flex;
@@ -417,31 +425,33 @@ footer .linker .left {
 footer .linker .left h3 {
   font-family: "Bodoni Moda", serif;
   font-weight: 700;
-  font-size: 18px;
+  color: black;
 }
 footer .linker .left p {
-  font-size: 18px;
-  font-weight: 500;
-  color: #00000070;
+  width: 190px;
+  margin: 24px 0px;
 }
 footer .linker .left .fotos {
   width: 192px;
   height: 48px;
+  display: flex;
+  justify-content: space-between;
 }
 
-/*
-footer .linker .right{
-
+footer .linker .right {
+  width: 50%;
+  height: 100%;
 }
-footer .linker .right table{
-
+footer .linker .right table {
+  text-align: start;
+  border-spacing: 30px;
+  margin: 20px auto;
+}
+footer .linker .right table th {
+  color: black;
+  text-align: start;
 }
 
-
-footer .credit{
-  
+footer .credit {
+  margin-left: 140px;
 }
-footer .credit p{
-  
-}
-*/
